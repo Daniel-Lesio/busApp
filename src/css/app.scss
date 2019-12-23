@@ -1,0 +1,22 @@
+// app global css in SCSS form
+ @font-face{
+     font-family: gotham;
+     src: url(./GothamBold.otf);
+ }
+body{
+    background: url('../assets/busstop.png')center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: gotham;
+    color:#525252;
+}
+.cp{
+    cursor: pointer;
+}
+ .gotham{
+     font-family: gotham;
+ }
+ a{
+    color : $primary;
+    text-decoration: none
+  }
